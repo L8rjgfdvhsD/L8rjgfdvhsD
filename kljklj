@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            margin-top: 50px;
+        }
+        .container {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .ip-info {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>IP Tracker</h1>
+        <p>Tracking IP address...</p>
+        <div class="ip-info">
+            <p><strong>IP Address:</strong> 192.168.1.101</p>
+            <p><strong>Location:</strong> Somewhereville, Planet Earth</p>
+            <p><strong>ISP:</strong> PrankNet Internet Services</p>
+            <p><strong>Status:</strong> <span style="color: lime;">Active</span></p>
+        </div>
+        <p>This information was pulled using advanced tracking tools.</p>
+    </div>
+</body>
+</html>
